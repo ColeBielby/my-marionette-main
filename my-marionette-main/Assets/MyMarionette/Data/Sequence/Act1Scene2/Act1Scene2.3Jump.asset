@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93a04f4ad7811c4593ed937470d9373, type: 3}
+  m_Name: Act1Scene2.3Jump
+  m_EditorClassIdentifier: 
+  startActions: []
+  id: a1s2.3
+  narrationDataIDs:
+  - a1s2c05
+  - a1s2c06
+  - a1s2c07
+  - a1s2c08
+  - a1s2c09
+  - a1s2c10
+  - a1s2c11
+  - a1s2c12
+  - a1s2c13
+  - a1s2c14
+  triggersGameplay: 1
+  gameplayID: jump
+  branches:
+  - PuppetKey: {fileID: 0}
+    SequenceValueID: a1s2.4
+  endActions: []
